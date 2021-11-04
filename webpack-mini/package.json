@@ -1,0 +1,17 @@
+{
+  "name": "webpack-mini",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "pack": "./bin/pack.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.16.0",
+    "@babel/traverse": "^7.16.0",
+    "@babel/types": "^7.16.0",
+    "babylon": "^6.18.0",
+    "ejs": "^3.1.6",
+    "tapable": "^2.2.1"
+  }
+}
